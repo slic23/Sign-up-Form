@@ -1,0 +1,188 @@
+
+body {
+    overflow: hidden;
+    background-color:white;
+  
+}
+
+.picBackground {
+   width: 640px;
+    
+    height: 720px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+main {
+
+    display: flex;
+    
+}
+
+
+
+label {
+    display: flex; /* Hace que cada etiqueta sea un bloque independiente */
+    margin-bottom: 5px; /* Añade espacio entre etiquetas */
+}
+
+/* Puedes agregar estilos adicionales según tus necesidades */
+
+
+form {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    padding: 40px;
+    gap:20px;
+    
+    
+
+}
+    
+
+
+button {
+    margin:20px;
+    padding:10px;
+} 
+
+.logosBar {
+
+    display: flex;
+    position: relative;
+    top:400px;
+    justify-content: center;
+    background-color: black;
+    color: white; 
+    opacity: 0.6;
+    height: 90px;
+    align-items: center;
+    gap: 0px;
+
+
+
+}
+
+.logosBar > div {
+    margin: 0 25px;
+}
+@font-face {
+    font-family: Norse-Bold;
+    src: url('Norse-Bold.otf');
+}
+.culture {
+    font-size: 70px;
+    font-style:Fantasy, Nose-Bold;
+    margin: 0px;
+   
+    
+}
+
+.Father {
+   position: relative;
+   top:-100px;
+   right: 20px; 
+   
+   
+}
+
+
+
+p {
+    width: 80%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 20px;
+}
+
+main>.elements {
+
+    
+    color: black;
+    
+    
+
+   
+}
+
+.dummy-text {
+    font-weight: 500;
+    font-size: 4rem;
+    width:80%;
+    position: relative;
+    margin-top:30px;
+    margin-left: 50px;
+}
+
+input {
+    width:300px;
+    margin:px;
+    padding:2px;
+}
+
+
+h2 {
+    padding: 50px 0px 0px 30px;
+}
+.account {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.blue {
+
+    border : 1px solid blue;
+
+}
+
+input:focus {
+    border: 2px solid #007bff; 
+   
+    
+}
+span {
+    
+
+    color: red;
+
+
+}
+ a {
+
+    text-decoration: none;
+    color: green;
+ }
+
+ h2 {
+
+    margin-left: 12px;
+ }
+
+ button {
+
+    padding: 15px 50px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+   
+ }
+
+
+ .order {
+    display: flex;
+
+    gap: 0px;
+
+ }
+
+
+
+
+
+
